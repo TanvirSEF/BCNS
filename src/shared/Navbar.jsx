@@ -1,16 +1,16 @@
 const Navbar = () => {
   return (
     <div>
-      <header className="flex flex-col items-center justify-center gap-4 p-4 bg-[#F0F0F0]">
+      <header className=" flex flex-row items-center justify-evenly gap-4 p-4 bg-[#F0F0F0]">
         <div>
           <img src="/logo.png" alt="Logo" />
         </div>
 
         <div>
-          <h1 className="text-[#372250] font-bold">
+          <h1 className="text-[#372250] font-bold text-2xl">
             বাংলাদেশ চাইল্ড নিউরোলজি সোসাইটি (বিসিএনস)
           </h1>
-          <h1 className="text-[#4B9FBE] font-bold">
+          <h1 className="text-[#4B9FBE] font-bold text-2xl">
             Bangladesh Child Neurology Society (BCNS)
           </h1>
           <p>
@@ -23,6 +23,7 @@ const Navbar = () => {
           <p>E-mail: office@bcns.org.bd</p>
         </div>
       </header>
+      <hr className="border-t-2" />
     </div>
   );
 };
